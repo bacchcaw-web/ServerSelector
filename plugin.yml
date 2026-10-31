@@ -1,0 +1,10 @@
+name: ServerSelector
+version: 1.0.0
+main: gg.sheeesh.serverselector.ServerSelector
+api-version: '1.20'
+softdepend: [floodgate, Geyser-Spigot]
+description: Crossplay server list (forms for Bedrock, chest menu for Java)
+commands:
+  servers:
+    description: Open the server list
+    aliases: [serverlist]

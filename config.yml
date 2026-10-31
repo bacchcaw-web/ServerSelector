@@ -1,0 +1,78 @@
+# ServerSelector config
+max-servers: 100          # servers EACH player can add for themselves
+transfer-countdown: 3     # seconds before joining (0 = instant). Moving cancels it.
+edit-tag: edit            # players with this tag AND in creative can edit sign text (sneak + click opens the menu)
+
+# Recommended servers: shown to everyone at the top, can't be edited/deleted.
+# Java players use java-port, Bedrock players use bedrock-port.
+# Leave one out and that edition won't see the server.
+recommended:
+  - name: WorldSMP
+    host: randomserver123.mcsh.gg
+    java-port: 25565
+    bedrock-port: 19132
+    icon: textures/items/nether_star
+
+# Icons for Bedrock players: "Label|texture path". Add your own lines!
+# (Java players see the matching item automatically, compass if there's no match.)
+icons:
+  - "Compass|textures/items/compass_item"
+  - "Nether Star|textures/items/nether_star"
+  - "Diamond|textures/items/diamond"
+  - "Emerald|textures/items/emerald"
+  - "Gold Ingot|textures/items/gold_ingot"
+  - "Iron Ingot|textures/items/iron_ingot"
+  - "Netherite Ingot|textures/items/netherite_ingot"
+  - "Copper Ingot|textures/items/copper_ingot"
+  - "Coal|textures/items/coal"
+  - "Redstone|textures/items/redstone_dust"
+  - "Glowstone Dust|textures/items/glowstone_dust"
+  - "Quartz|textures/items/quartz"
+  - "Diamond Sword|textures/items/diamond_sword"
+  - "Iron Sword|textures/items/iron_sword"
+  - "Netherite Sword|textures/items/netherite_sword"
+  - "Diamond Pickaxe|textures/items/diamond_pickaxe"
+  - "Diamond Axe|textures/items/diamond_axe"
+  - "Bow|textures/items/bow_standby"
+  - "Crossbow|textures/items/crossbow_standby"
+  - "Arrow|textures/items/arrow"
+  - "Trident|textures/items/trident"
+  - "Mace|textures/items/mace"
+  - "Elytra|textures/items/elytra"
+  - "Totem|textures/items/totem"
+  - "Diamond Helmet|textures/items/diamond_helmet"
+  - "Diamond Chestplate|textures/items/diamond_chestplate"
+  - "Netherite Helmet|textures/items/netherite_helmet"
+  - "Golden Apple|textures/items/apple_golden"
+  - "Apple|textures/items/apple"
+  - "Bread|textures/items/bread"
+  - "Cake|textures/items/cake"
+  - "Cooked Beef|textures/items/beef_cooked"
+  - "Ender Pearl|textures/items/ender_pearl"
+  - "Eye of Ender|textures/items/ender_eye"
+  - "End Crystal|textures/items/end_crystal"
+  - "Dragon Breath|textures/items/dragon_breath"
+  - "Blaze Rod|textures/items/blaze_rod"
+  - "Fire Charge|textures/items/fireball"
+  - "Wind Charge|textures/items/wind_charge"
+  - "Breeze Rod|textures/items/breeze_rod"
+  - "Enchanted Book|textures/items/book_enchanted"
+  - "Paper|textures/items/paper"
+  - "Map|textures/items/map_filled"
+  - "Name Tag|textures/items/name_tag"
+  - "Clock|textures/items/clock_item"
+  - "Spyglass|textures/items/spyglass"
+  - "Fishing Rod|textures/items/fishing_rod_uncast"
+  - "Flint and Steel|textures/items/flint_and_steel"
+  - "Water Bucket|textures/items/bucket_water"
+  - "Lava Bucket|textures/items/bucket_lava"
+  - "Bone|textures/items/bone"
+  - "Feather|textures/items/feather"
+  - "Slimeball|textures/items/slimeball"
+  - "Gunpowder|textures/items/gunpowder"
+  - "Amethyst Shard|textures/items/amethyst_shard"
+  - "Echo Shard|textures/items/echo_shard"
+  - "Firework|textures/items/fireworks"
+  - "Minecart|textures/items/minecart_normal"
+  - "Honey Bottle|textures/items/honey_bottle"
+  - "Experience Bottle|textures/items/experience_bottle"
